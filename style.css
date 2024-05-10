@@ -1,0 +1,181 @@
+
+.overlay 
+{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.overlay:target 
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup 
+{
+    margin: 70px auto;
+    padding: 20px;
+    background: var(--dark-blue);
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+    background-color: black;
+}
+  
+.popup h2 {
+    margin-top: 0;
+    color: var(--white);
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover 
+{
+    color: #06D85F;
+}
+
+.content 
+{
+    max-height: 30%;
+    width: 50%;
+}
+
+
+.slider
+{
+    margin-top: 10%;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 65%;
+}
+
+.slider h4
+{
+    margin-top: 20%;
+}
+
+.slides
+{
+    display: flex;
+    width: 50rem;
+    overflow: hidden;
+}
+
+.slides img 
+{
+    border-radius: 10px;
+}
+
+.slide
+{
+    width: 50rem;
+    transition: .5s;
+}
+
+.choose_1:checked ~ .slides > .s1
+{
+    margin-left: -0rem;
+}
+
+.choose_2:checked ~ .slides > .s1
+{
+    margin-left: -50rem;
+}
+.choose_3:checked ~ .slides > .s1
+{    
+  margin-left: -100rem;
+}
+.background
+{
+  background-color: #000;
+}
+.
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "GILL sans", "GILL sans MT",calibri, "Trebuchet MS", sans-serif;
+}
+.body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: blue;
+}
+h1
+{
+  color:red;
+  background: whitesmoke;
+}
+.right img
+{
+  width:450px;
+  height: 100%
+}
+hr
+{
+  border-block-end-color: aqua;
+}
+.html
+{
+  html-size:#74$;
+  counter-reset: defauld;
+  border-image-outset: solid;
+  flex-grow: 000;
+  gap: 0px;
+  border-top-style: #FF000;
+}
+.bug
+{
+  clear: bug;
+  background: 000;
+}
+video
+{
+  block-size: 100px;
+  rotate: 0px 8px;
+}
+a
+{
+  font-size: 15px;
+}
+button
+{
+  block-size: 30px;
+  background-color: cyan;
+  tab-size: 20px;
+}
+h2
+{
+  border-bottom-color: chartreuse;
+  color: cyan;
+  background-color: aqua;
+}
+input
+{
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+
